@@ -12,7 +12,9 @@
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{BC8A1FFA-BEE3-4634-8014-F334798102B3};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>Planets_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>Planets_StoreKey.pfx</PackageCertificateKeyFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <PackageCertificateThumbprint>0F536648D7621B554CEB58D1935EAB890A94B552</PackageCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -136,6 +138,7 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <None Include="Common\ReadMe.txt" />
+    <None Include="Planets_StoreKey.pfx" />
     <None Include="Planets_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -170,6 +173,7 @@
     <Content Include="Assets\DarkGray.png" />
     <Content Include="Assets\xbox.jpg" />
     <Content Include="Assets\xboxLive.jpg" />
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="rockeImage.png" />
     <Content Include="rocket.png" />
     <Content Include="Space_Beautiful_Nebula_018058_.jpg" />
